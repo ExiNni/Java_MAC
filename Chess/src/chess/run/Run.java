@@ -10,8 +10,8 @@ public class Run {
         ChessView view = new ChessView();
         ChessController controller = new ChessController(model, view);
 
-        System.out.println("1번 플레이어는 K와 Q입니다.");
-        System.out.println("2번 플레이어는 k와 q입니다.");
+        System.out.println("1번 플레이어는 White입니다.");
+        System.out.println("2번 플레이어는 Black입니다.");
 
         System.out.println("말을 움직여 시작해주세요.");
 
@@ -19,3 +19,4 @@ public class Run {
 
     }
 }
+

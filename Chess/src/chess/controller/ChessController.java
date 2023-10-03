@@ -74,7 +74,7 @@ public class ChessController {
     }
 
     private boolean checkGameOver() {
-        char currentPlayerKing = isPlayer1Turn ? 'k' : 'K';
+        char currentPlayerKing = isPlayer1Turn ? '♚' : '♔';
 
         int currentPlayerKingRow = -1;
         int currentPlayerKingCol = -1;
