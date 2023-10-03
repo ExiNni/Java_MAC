@@ -19,12 +19,10 @@ public class ChessModel {
             board[1][col] = '♟';
         }
 
-        // 흰색 Pawn 초기 배치 (행 번호 6)
         for (int col = 0; col < 8; col++) {
             board[6][col] = '♙';
         }
 
-        // 나머지 보드 위치는 공백으로 초기화
         for (int i = 2; i < 6; i++) {
             for (int j = 0; j < 8; j++) {
                 board[i][j] = ' ';

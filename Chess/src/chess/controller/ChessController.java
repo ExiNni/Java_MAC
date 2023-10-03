@@ -66,7 +66,7 @@ public class ChessController {
         for (int row = 0; row < 8; row++) {
             for (int col = 0; col < 8; col++) {
                 if (model.getPieceAt(row, col) == kingSymbol) {
-                    return false; // 살아있는 King을 찾았으면 false 반환
+                    return false; 
                 }
             }
         }
